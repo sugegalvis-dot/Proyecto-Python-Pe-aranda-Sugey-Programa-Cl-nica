@@ -1,0 +1,57 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombres": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "e-mail": "admin@acmeclinic.com",
+            "direccion": "Cl 185 #26-86",
+            "rol": "administrativo",
+            "contraseña": "admin123"
+        },
+        {
+            "identificacion": "1116772",
+            "nombres": "Sugey",
+            "apellidos": "Peñaranda",
+            "telefono": "3218456981",
+            "e-mail": "sugegalvis@gmail.com",
+            "direccion": "Cra. 19 #102",
+            "rol": "medico",
+            "contraseña": "sugey123"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "00000",
+            "nombres": "Maria",
+            "apellidos": "villa",
+            "telefono": "3221562954",
+            "email": "maria@gmail.com",
+            "direccion": "cra. 15",
+            "genero": "femenino",
+            "estado_civil": "Casada"
+        }
+    ],
+    "consultas": [
+        {
+            "fecha": "2026-11-13",
+            "paciente": "00000",
+            "nombre_medico": "Sugey Peñaranda",
+            "sintomas": [
+                "tos",
+                "fiebre",
+                "dolor de huesos"
+            ],
+            "diagnostico": "virus de la gripa",
+            "medicamentos": [
+                {
+                    "medicamento": "acetaminofen",
+                    "cantidad": 2,
+                    "dosis": "2",
+                    "dias": 4
+                }
+            ]
+        }
+    ]
+}
